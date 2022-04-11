@@ -6,6 +6,6 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: rm -rf ~/go && brew update && brew install go && go get -v -t -d ./... && ln -s /home/linuxbrew/.linuxbrew/opt/go/libexec ~/go
+  - init: go get -v -t -d ./...
 
 
