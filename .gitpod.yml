@@ -3,7 +3,7 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 image: 
-  file: .gitpod.Dockefile
+  file: .gitpod.Dockerfile
 
 tasks:
   - init: rm -rf ~/go && brew update && brew install go && go get -v -t -d ./... && ln -s /home/linuxbrew/.linuxbrew/opt/go/libexec ~/go
